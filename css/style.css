@@ -1,0 +1,55 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body, .contentMain {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body {
+	margin: 0;
+	flex-direction: column;
+	background: linear-gradient(to right, #310434, #520749);
+}
+.content {
+	border: 5px solid rgba(255, 255, 255, .3);
+	border-radius: 10px;
+	height: max-content;
+	width: 600px;
+	overflow: hidden;
+}
+.shell, .navigation {
+	display: flex;
+	flex-direction: row;
+	transition: 1s;
+}
+img {
+	width: 600px;
+}
+button {
+	border: 2px solid rgba(0, 0, 0, .9);
+	background-color: rgba(0, 0, 0, .7);
+	font-size: 26px;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	user-select: none;
+	z-index: 1;
+}
+.prev {
+	margin-right: -50px;
+}
+.next {
+	margin-left: -50px;
+}
+.navigation {
+	margin-top: -30px;
+}
+.navigation div {
+	border: 1px solid rgba(255, 255, 255, .9);
+	background-color: rgba(255, 255, 255, .3);
+	padding: 5px;
+	margin: 0 5px;
+	border-radius: 50%;
+}
