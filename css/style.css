@@ -10,7 +10,7 @@ body, .contentMain {
 body {
 	margin: 0;
 	flex-direction: column;
-	background: linear-gradient(to right, #310434, #520749);
+	background: linear-gradient(to right, #5c3cb5, #c791b5);
 }
 .content {
 	border: 5px solid rgba(255, 255, 255, .3);
